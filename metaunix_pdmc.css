@@ -416,3 +416,6 @@
 #metaunix-pdmc-landing * , #metaunix-pdmc-landing *::before , #metaunix-pdmc-landing *::after{box-sizing:border-box;}
 /* Only hide the page's original content when the route guard has succeeded. */
 html.metaunix-pdmc-route-active [data-metaunix-pdmc-hidden="true"]{display:none!important;}
+
+/* PDMC only: close the 16px gap left between the Sixshop header and landing. */
+html.metaunix-pdmc-route-active #metaunix-pdmc-landing { margin-top: -16px; }
